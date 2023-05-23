@@ -1,4 +1,5 @@
 import React from 'react';
+import costImg1 from "../../src/assets/costImg3.jpg";
 
 const Cost = () => {
     return (
@@ -12,7 +13,7 @@ const Cost = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img src="../../src/assets/costImg3.jpg" alt="" className='img-fluid img-round' />
+                        <img src={costImg1} alt="" className='img-fluid img-round' />
                     </div>
                 </div>
 

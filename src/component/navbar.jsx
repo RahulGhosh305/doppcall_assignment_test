@@ -1,12 +1,14 @@
 import React from 'react';
 import "../App.css"
+import logo from "../../src/assets/nib_logo.png"
+
 const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg nav-bg">
                 <div className="container-fluid py-2 px-5">
                     <a className="navbar-brand" href="#">
-                        <img src="../../src/assets/nib_logo.png" alt="logo" className="logo" />
+                        <img src={logo} alt="logo" className="logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

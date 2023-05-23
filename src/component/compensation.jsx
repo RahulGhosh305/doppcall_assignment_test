@@ -1,4 +1,5 @@
 import React from 'react';
+import compensationImg1 from "../../src/assets/nextStepImg.jpg";
 
 const Compensation = () => {
     return (
@@ -17,7 +18,7 @@ const Compensation = () => {
             <div>
                 <div className='row my-5 pad-top-80'>
                     <div className="col-md-6">
-                        <img src="../../src/assets/nextStepImg.jpg" alt="" className='img-fluid img-round' />
+                        <img src={compensationImg1} alt="" className='img-fluid img-round' />
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
