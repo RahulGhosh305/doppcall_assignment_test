@@ -17,7 +17,7 @@ const Cost = () => {
                 </div>
 
                 <form className="d-flex justify-content-center" role="search">
-                    <button className="btn btn-lg btn-success" type="submit">File a Case Today</button>
+                    <button className="btn btn-lg btn-warning" type="submit">File a Case Today</button>
                 </form>
             </div>
         </div>
