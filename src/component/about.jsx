@@ -1,6 +1,8 @@
 import React from 'react';
 import { BsFill1CircleFill, BsFill2CircleFill } from 'react-icons/bs';
 
+import fireman1 from "../../src/assets/firemanAbout.jpg"
+import fireman2 from "../../src/assets/aboutImg2.jpg"
 const About = () => {
     return (
         <div className='container-fluid px-5' id='about'>
@@ -33,13 +35,13 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img src="../../src/assets/firemanAbout.jpg" alt="" className='img-fluid img-round' />
+                    <img src={fireman1} alt="" className='img-fluid img-round' />
                 </div>
             </div>
 
             <div className='row my-5 pad-top-80'>
                 <div className="col-md-6">
-                    <img src="../../src/assets/aboutImg2.jpg" alt="" className='img-fluid img-round' />
+                    <img src={fireman2} alt="" className='img-fluid img-round' />
                 </div>
                 <div className="col-md-6 d-flex align-items-center">
                     <div>
