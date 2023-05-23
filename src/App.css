@@ -1,0 +1,58 @@
+/* Navbar */
+.logo {
+  width: 160px;
+  height: 40px;
+}
+.list-font {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.nav-bg {
+  background-color: #fbf6fb;
+}
+/* Header */
+.bgImage {
+  background-image: url("../src//assets/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  opacity: 0.8;
+}
+.header-title {
+  font-weight: 800;
+  font-size: 72px;
+  color: #000000;
+}
+.header-subtitle {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+}
+.content-wrapper {
+  margin-top: 140px;
+}
+
+/* About */
+.pad-top-80 {
+  padding-top: 80px;
+}
+.icon-size {
+  font-size: 22px;
+  margin-right: 10px;
+}
+/* Cost Section */
+.bg-cost-color {
+  background-color: #e2e8f0;
+}
+.cost-section {
+  padding: 100px 0px;
+}
+.img-round {
+  border-radius: 15px;
+}
+/* Footer */
+.footer-bg {
+  background-color: #e2e8f0;
+  padding: 50px 0px;
+}
