@@ -16,7 +16,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 850px;
   opacity: 0.8;
 }
 .header-title {
@@ -30,7 +30,11 @@
   color: #000000;
 }
 .content-wrapper {
-  margin-top: 140px;
+  margin-top: 80px;
+}
+.cus-form {
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
 /* About */

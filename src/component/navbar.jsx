@@ -23,9 +23,8 @@ const Navbar = () => {
                                 <a className="nav-link list-font px-3" href="#compensation">Compensation</a>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
-                            <button className="btn btn-warning" type="submit">File a Case Today</button>
-                        </form>
+
+                        <a type='submit' className="btn btn-lg text-white btn-warning" href="#leadform">File a Case Today</a>
                     </div>
                 </div>
             </nav>
