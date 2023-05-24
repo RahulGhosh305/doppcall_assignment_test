@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTthWLK67-gW6a_mHQzI35PB_2xpvXUsM_bveJtEbINjn_SWS3UMBgUPV4ILnD5eR5AA/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwkUR3CdOzFCOyOY1joVGPEElyTEGFmMzjk4kSNExtFDN3UfSbwQ8_A16wgxMvQWwhOAg/exec'
     const form = document.forms['leadform']
 
     const submit = (e) => {

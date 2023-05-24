@@ -130,9 +130,6 @@
   .bgImage {
     height: 950px;
   }
-  .pad-top-0 {
-    padding-top: 0px;
-  }
 }
 
 @media screen and (min-width: 1201px) {
