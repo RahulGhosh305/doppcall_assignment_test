@@ -34,18 +34,18 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-3">
                     <img src={fireman1} alt="" className='img-fluid img-round' />
                 </div>
             </div>
 
-            <div className='row my-5 pad-top-80'>
-                <div className="col-md-6">
+            <div className='row my-5 pad-top-80 pad-top-0'>
+                <div className="col-md-6 order-md-1 order-2 my-3">
                     <img src={fireman2} alt="" className='img-fluid img-round' />
                 </div>
-                <div className="col-md-6 d-flex align-items-center">
+                <div className="col-md-6 d-flex align-items-center order-md-2 order-1">
                     <div>
-                        <h3>Health Concerns</h3>
+                        <h3 className='my-3'>Health Concerns</h3>
                         <p className='lead'>Firefighting foam contains substances called PFAS. Certain types of PFAS, such as PFOA and PFOS, can be toxic. There are two primary reasons why:</p>
                     </div>
                 </div>

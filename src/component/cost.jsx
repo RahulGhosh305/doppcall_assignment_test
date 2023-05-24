@@ -12,7 +12,7 @@ const Cost = () => {
                             <p className='lead'>Treatments for these types of conditions can be extremely expensive. Ultimately, exposure to firefighting foam could mean a lifetime of suffering—and struggling to pay staggering hospital bills. If this is your experience, it’s time to be proactive about compensation for your pain.</p>
                         </div>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 my-3">
                         <img src={costImg1} alt="" className='img-fluid img-round' />
                     </div>
                 </div>

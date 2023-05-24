@@ -17,7 +17,7 @@ const Compensation = () => {
 
             <div>
                 <div className='row my-5 pad-top-80'>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-3">
                         <img src={compensationImg1} alt="" className='img-fluid img-round' />
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
