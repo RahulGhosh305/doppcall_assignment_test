@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <div className='bgImage'>
-            <div className="container-fluid px-5">
+            <div className="container-fluid px-md-5 px-4">
                 <div className="row">
                     <div className="col-md-7">
                         <div className='content-wrapper'>
@@ -25,7 +25,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <div className='content-wrapper cus-form p-5'>
+                        <div className='content-wrapper cus-form p-lg-5 p-3'>
                             <form onSubmit={submit} method='POST' name='leadform' id='leadform'>
                                 <h6 className='text-center'>YOU MAY QUALIFY FOR SIGNIFICANT COMPENSATION</h6>
                                 <hr />
@@ -59,11 +59,11 @@ const Header = () => {
                                 </select>
 
                                 <div className='row mb-3'>
-                                    <div className="col-md-6">
+                                    <div className="col-sm-6">
                                         <label for="first" class="form-label">First Name</label>
                                         <input type="text" name="firstName" class="form-control" id="first" />
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-sm-6">
                                         <label for="last" class="form-label">Last Name</label>
                                         <input type="text" name='lastName' class="form-control" id="last" />
                                     </div>
@@ -74,11 +74,11 @@ const Header = () => {
                                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div className='row'>
-                                    <div className="col-md-6">
+                                    <div className="col-sm-6">
                                         <label for="phone" class="form-label">Phone</label>
                                         <input type="number" name='phone' class="form-control" id="phone" />
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-sm-6">
                                         <label for="zip" class="form-label">ZIP Code</label>
                                         <input type="number" name='zip' class="form-control" id="zip" />
                                     </div>
